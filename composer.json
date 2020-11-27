@@ -1,0 +1,38 @@
+{
+  "name": "olivertwistor/password-generator",
+  "description": "Generates lists of passwords based on rules.",
+  "version": "0.1.0",
+  "type": "project",
+  "keywords": ["passwords"],
+  "homepage": "https://github.com/olivertwistor/password-generator",
+  "readme": "LICENSE",
+  "time": "2020-11-27",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johan Nilsson",
+      "email": "oliver_twistor@hotmail.com",
+      "homepage": "http://www.olivertwistor.nu",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "oliver_twistor@hotmail.com",
+    "issues": "https://github.com/olivertwistor/password-generator/issues",
+    "source": "https://github.com/olivertwistor/password-generator",
+    "docs": "https://github.com/olivertwistor/password-generator"
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Olivertwistor\\PasswordGenerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Olivertwistor\\PasswordGenerator\\Tests\\": "tests/"
+    }
+  }
+}
